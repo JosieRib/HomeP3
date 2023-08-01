@@ -86,7 +86,11 @@ public final class ServiceBookconfirmationGrpc {
    */
   public static abstract class ServiceBookconfirmationImplBase implements io.grpc.BindableService {
 
-    /**
+  //  public class ServiceBookconfirmationImplBase {
+
+	//}
+
+	/**
      */
     public void getConfirmantion(com.parking.ServiceBookconfirmationOuterClass.ConfirmationRequest request,
         io.grpc.stub.StreamObserver<com.parking.ServiceBookconfirmationOuterClass.Confirmation> responseObserver) {
